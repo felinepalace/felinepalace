@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 
 /*
 	Helios by HTML5 UP
@@ -99,7 +101,7 @@ input, select, textarea {
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Courgette', sans-serif;
 		font-weight: 300;
 	}
 
@@ -117,7 +119,7 @@ input, select, textarea {
 	input, textarea, select {
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Courgette', sans-serif;
 		font-weight: 300;
 	}
 
@@ -1978,9 +1980,6 @@ input, select, textarea {
 		-ms-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 	}
-	form input[type="submit"] {
-		margin-bottom: 2em;
-	}
 
 		form input[type="text"]:focus,
 		form input[type="email"]:focus,
@@ -1988,7 +1987,7 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fff;
-			border-color: #df7366;
+			border-color: #AD974F;
 		}
 
 	form input[type="text"],
