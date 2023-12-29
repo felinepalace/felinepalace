@@ -1816,6 +1816,13 @@ input, select, textarea {
 			margin: 0 0 4em 0;
 		}
 
+		.image70 { 
+			width: 70%; /* Set the width to 50% of the viewport width */
+			height: auto;
+			display: block; /* Ensures that margin: 0 auto; works properly */
+  			margin: 0 auto;
+		}
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -1832,25 +1839,39 @@ input, select, textarea {
 			}
 
 /* List */
-
 	ul {
 		list-style: disc;
 		padding-left: 1em;
 	}
 
-		ul li {
-			padding-left: 0.5em;
-		}
+	ul li {
+		padding-left: 0.5em;
+	}
 
 	ol {
 		list-style: decimal;
 		padding-left: 1.25em;
 	}
 
-		ol li {
-			padding-left: 0.25em;
-		}
+	ol li {
+		padding-left: 0.25em;
+	}
 
+	.list-inline-special {
+		position: relative;
+		padding-left: 35px;
+		list-style: none;
+		line-height: 1.25em;
+	}
+
+	.li-padded {
+		padding-left: 10px;
+	}
+
+	.i-absolute { 
+		position: absolute;
+		left: 0;
+	}
 /* Actions */
 
 	ul.actions {
@@ -2178,8 +2199,8 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper2 {
-		margin: 0 0 2em 0;
-		padding: 6em 0 6em 0;
+		margin: 0 0 1em 0;
+		padding: 1em 0 3em 0;
 	}
 
 	.wrapper2.style2 {
@@ -2188,8 +2209,8 @@ input, select, textarea {
 
 	.wrapper {
 		background: #fff;
-		margin: 0 0 2em 0;
-		padding: 6em 0 6em 0;
+		margin: 0 0 1em 0;
+		padding: 1em 0 3em 0;
 	}
 
 		.wrapper.style2 {
@@ -2821,6 +2842,18 @@ input, select, textarea {
 
 			.image.centered {
 				margin: 0 0 1em 0;
+			}
+
+	
+
+			.image75{ 
+				width: 75vw; /* Set the width to 50% of the viewport width */
+				height: auto;
+			}
+
+			.image25 {
+				width: 25vw; /* Set the width to 50% of the viewport width */
+				height: auto;
 			}
 
 		/* Actions */
