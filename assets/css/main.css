@@ -11,6 +11,11 @@
 	font-family: 'WoodDragon'; 
 	src: url('../fonts/Wood\ Dragon.woff2') format('woff2');
   }
+
+  @font-face {
+	font-family: 'AntaraDistance'; 
+	src: url('../fonts/aAntaraDistance.woff2') format('woff2');
+  }
 /*
 	Helios by HTML5 UP
 	html5up.net | @ajlkn
@@ -132,7 +137,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: 'WoodDragon', sans-serif;
+		font-family: 'AntaraDistance', sans-serif;
 		font-weight: 400;
 		color: #8E793E;
 		line-height: 1.25em;
