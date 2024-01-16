@@ -2,7 +2,15 @@
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
+@font-face {
+	font-family: 'CaviarDreams';
+	src: url('../fonts/CaviarDreams.woff2') format('woff2');
+  }
 
+@font-face {
+	font-family: 'CaviarDreamsBold'; 
+	src: url('../fonts/CaviarDreams_Bold.woff2') format('woff2');
+  }
 /*
 	Helios by HTML5 UP
 	html5up.net | @ajlkn
@@ -101,7 +109,7 @@ input, select, textarea {
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Courgette', sans-serif;
+		font-family: 'CaviarDreams', sans-serif;
 		font-weight: 300;
 	}
 
@@ -119,11 +127,12 @@ input, select, textarea {
 	input, textarea, select {
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Courgette', sans-serif;
+		font-family: 'CaviarDreams', sans-serif;
 		font-weight: 300;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family: 'CaviarDreamsBold', sans-serif;
 		font-weight: 400;
 		color: #8E793E;
 		line-height: 1.25em;
