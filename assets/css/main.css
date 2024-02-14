@@ -2685,6 +2685,8 @@ input, select, textarea {
 
 			.carousel article p {
 				text-align: center;
+				height: 100px;
+				overflow-y: auto;
 			}
 
 /* Wide */
@@ -2711,6 +2713,14 @@ input, select, textarea {
 				.carousel article {
 					width: 18em;
 					margin: 0 1.25em 0 0;
+				}
+
+				.carousel article .image img {
+					height: 400px;/* Stretch the image to fill its container */
+				}
+
+				.carousel article p {
+					height: 90px;
 				}
 
 	}
@@ -2758,6 +2768,10 @@ input, select, textarea {
 				padding-right: 2em;
 			}
 
+			.carousel article p {
+				height: 60px;
+			}
+
 	}
 
 /* Narrow */
@@ -2797,6 +2811,14 @@ input, select, textarea {
 				.carousel article {
 					width: 18em;
 					margin: 0 1em 0 0;
+				}
+
+				.carousel article .image img {
+					height: 380px; /* Stretch the image to fill its container */
+				}
+
+				.carousel article p {
+					height: 80px;
 				}
 
 	}
@@ -3213,6 +3235,17 @@ input, select, textarea {
 
 					.carousel article .image {
 						margin-bottom: 2em;
+					}
+
+					.carousel article .image img {
+						display: block;
+						width: 100%;
+						height: 300px;
+						object-fit: fill; /* Stretch the image to fill its container */
+					}
+
+					.carousel article p {
+						height: 90px;
 					}
 
 	}
