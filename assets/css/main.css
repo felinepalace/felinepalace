@@ -7,6 +7,10 @@
 	src: url('../fonts/CaviarDreams.woff2') format('woff2');
   }
 
+  @font-face {
+	font-family: 'CaviarDreamsBold';
+	src: url('../fonts/CaviarDreams_Bold.woff2') format('woff2');
+  }
 @font-face {
 	font-family: 'WoodDragon'; 
 	src: url('../fonts/Wood\ Dragon.woff2') format('woff2');
@@ -169,6 +173,7 @@ input, select, textarea {
 	strong, b {
 		font-weight: 400;
 		color: #483949;
+		font-family: 'CaviarDreamsBold';
 	}
 
 	em, i {
