@@ -263,6 +263,10 @@ input, select, textarea {
 		font-size: 0.8em;
 	}
 
+	.pad-left {
+		padding-left: 15px;
+	}
+	
 /* Container */
 
 	.container {
@@ -311,6 +315,41 @@ input, select, textarea {
 
 		}
 
+		.image-container {
+		    position: relative;
+    		display: inline-block;
+			align-items: center;
+    		width: 50%;
+		}
+		
+		.image-in-container {
+			display: block;
+			width: 100%; /* Adjust the width as needed */
+		}
+		
+		.bottom-image-text {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent background */
+			color: #8E793E;
+			font-weight: 400;
+			font-family: 'AntaraDistance', sans-serif;
+			font-size: xx-large;
+			text-align: center;
+			padding: 10px 0;
+			box-sizing: border-box; /* Ensure padding is included in the width */
+		}
+
+		.centered-container {
+            display: flex;
+            justify-content: center;
+        }
+        .centered-div {
+            width: 100%; /* Adjust as needed */
+            background-color: lightgray; /* For visibility */
+        }
 /* Row */
 
 	.row {
@@ -1799,7 +1838,7 @@ input, select, textarea {
 
 
 	header {
-		margin: 0 0 1em 0;
+		margin: 1em 0 1em 0;
 	}
 
 		header > p {
