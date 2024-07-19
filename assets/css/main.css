@@ -115,10 +115,15 @@ input, select, textarea {
 
 	body {
 		color: #5b5b5b;
+		
 		font-size: 15pt;
 		line-height: 1.85em;
 		font-family: 'CaviarDreams', sans-serif;
 		font-weight: 300;
+	}
+
+	.body-background-color { 
+		background: #d6d6d6;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1889,6 +1894,28 @@ input, select, textarea {
 	.i-absolute { 
 		position: absolute;
 		left: 0;
+	}
+
+	.custom-bullets {
+		list-style-type: none; /* Remove default bullets */
+	}
+
+	.custom-bullets li {
+		position: relative; /* Position the list items relatively */
+		padding-left: 25px; /* Space for the custom bullet */
+	}
+	
+	.custom-bullets li::before {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 16px; /* Desired width of the image */
+		height: 25px; /* Desired height of the image */
+		background-image: url('../../img/bullet-cat2.png'); /* Path to your bullet image */
+		background-size: cover; /* Ensure the image covers the specified dimensions */
+		background-repeat: no-repeat;
 	}
 /* Actions */
 
