@@ -185,8 +185,8 @@ input, select, textarea {
 	}
 
 	a {
-		color: inherit;
-		border-bottom: solid 1px rgba(128, 128, 128, 0.15);
+		color: #8E793E;
+		border-bottom: solid 3px rgba(201, 140, 8, 0.459);
 		text-decoration: none;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
